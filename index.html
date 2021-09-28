@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="parent">
+        <div id="calculator-box">
+            <form>
+                <div id="input">
+                    <div class="input">
+                        <input type="text" id="value1" autocomplete="off" placeholder="Numbers">
+                    </div>
+                    <div class="input">
+                        <input type="text" id="value2" autocomplete="off" placeholder="Numbers">
+                    </div>
+                </div>
+                <div class="operator">
+                    <button type="button" onclick="add()">+</button>
+                    <button type="button" onclick="min()">-</button>
+                    <button type="button" onclick="div()">/</button>
+                    <button type="button" onclick="mul()">*</button>
+                </div>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+
+</html>
